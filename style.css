@@ -1,0 +1,157 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    background-image: url("https://i.imgur.com/y4XFv2r.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    /* backdrop-filter: blur(5px); */
+}
+  
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 80vh;
+}
+  
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+  
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 16px;
+}
+  
+.page-logo {
+    width: 150px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    opacity: 50%;
+}
+  
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+  
+input {
+    margin: 4px;
+    padding: 6px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+  
+button {
+    margin: 4px;
+    padding: 6px;
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+  
+.fundoAzul:hover {
+    background-color: #029ac9;
+    color: white;
+}
+  
+.fundoVerde {
+    background-color: #4CAF50;
+    color: white;
+}
+  
+.fundoVerde:hover {
+    background-color: #419144;
+    color: white;
+}
+  
+.resultado {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 15px;
+    margin: 0px;
+}
+  
+.frame {
+    display: flex;
+    width: 300px;
+    border-radius: 5px;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-top: 50px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+  
+.frame p {
+    margin: 5px;
+}
+  
+h3 {
+    color: white;
+    margin-top: 10px;
+}
+  
+#vidas {
+    width: 70px;
+    height: 20px;
+    align-self: center;
+    margin: 5px;
+    object-fit: cover;
+  /*   object-position: -24px; */
+  /*   object-position: -48px; */
+}
+
+footer {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.footer-card {
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nome-perfil {
+    margin: 0 0 0 6px;
+}
+
+.status-profissional {
+    margin: 2px 0 0 6px;
+}
+
+.footer-image {
+    border-radius: 100%;
+    width: 50px;
+}
+
+.icons {
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-icon {
+    text-decoration: none;
+    margin: 6px;
+    font-size: 1.3rem;
+    color: var(--purple); /* Para tirar a cor roxo */
+    transition: color 0.2s;
+}
+
+.link-icon:hover {
+    color: var(--orange);
+}
